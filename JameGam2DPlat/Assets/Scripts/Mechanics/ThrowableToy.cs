@@ -24,7 +24,7 @@ public class ThrowableToy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         Debug.LogWarning(name + " I hit something!");
-        var thief = other.gameObject.GetComponent<EnemyController>();
+        var thief = other.gameObject.GetComponent<ThiefController>();
         if(thief != null){
             thief.GetHit();
             hitFeedback.PlayFeedbacks();
