@@ -5,6 +5,7 @@ using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
+using MoreMountains.Feedbacks;
 
 namespace Platformer.Mechanics
 {
@@ -33,7 +34,10 @@ namespace Platformer.Mechanics
         /*internal new*/ public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
-
+        private ThrowPlace throwPlaceObj;
+        [SerializeField] private float reachFloat;
+        [SerializeField] private LayerMask throwPlaceLayerMask;
+        [SerializeField] private MMF_Player throwPlaceTryFeedback;
         bool jump;
         Vector2 move;
         SpriteRenderer spriteRenderer;
@@ -56,12 +60,19 @@ namespace Platformer.Mechanics
             if (controlEnabled)
             {
                 move.x = Input.GetAxis("Horizontal");
-                if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
-                    jumpState = JumpState.PrepareToJump;
-                else if (Input.GetButtonUp("Jump"))
-                {
-                    stopJump = true;
-                    Schedule<PlayerStopJump>().player = this;
+                // if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
+                //     jumpState = JumpState.PrepareToJump;
+                // else if (Input.GetButtonUp("Jump"))
+                // {
+                //     stopJump = true;
+                //     Schedule<PlayerStopJump>().player = this;
+                // }
+                if(Input.GetButtonDown("Jump")){
+                    throwPlaceObj = Physics2D.OverlapCircle(transform.position,reachFloat,throwPlaceLayerMask).GetComponent<ThrowPlace>();
+                    if(throwPlaceObj != null){
+                        throwPlaceObj.ThrowToy();
+                        throwPlaceTryFeedback.PlayFeedbacks();
+                    }
                 }
             }
             else

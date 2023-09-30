@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Platformer.Gameplay;
 using UnityEngine;
 using static Platformer.Core.Simulation;
+using MoreMountains.Feedbacks;
 
 namespace Platformer.Mechanics
 {
@@ -20,6 +21,7 @@ namespace Platformer.Mechanics
         internal Collider2D _collider;
         internal AudioSource _audio;
         SpriteRenderer spriteRenderer;
+        [SerializeField] private MMF_Player gotHitFeedback;
 
         public Bounds Bounds => _collider.bounds;
 
@@ -49,6 +51,11 @@ namespace Platformer.Mechanics
                 if (mover == null) mover = path.CreateMover(control.maxSpeed * 0.5f);
                 control.move.x = Mathf.Clamp(mover.Position.x - transform.position.x, -1, 1);
             }
+        }
+
+        public void GetHit(){
+            Debug.LogWarning(name + " Got Hit!!" );
+            gotHitFeedback.PlayFeedbacks();
         }
 
     }
