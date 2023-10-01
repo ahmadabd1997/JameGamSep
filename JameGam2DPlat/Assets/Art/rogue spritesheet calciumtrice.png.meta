@@ -1,0 +1,2278 @@
+fileFormatVersion: 2
+guid: a5b65d9482c42ec40bf7307f55780fd1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defef078a9a3c934b99fc47a49411912
+      internalID: -1382904472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc215782bf8f1748b64a7cd549aed5a
+      internalID: 324927628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aabbb75c0257f7478207b99a412cdbf
+      internalID: 1782172776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb92eb560c72b48938c993c69f7c13
+      internalID: 877114827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd160cdd3d58b54392be280442aaf15
+      internalID: -279910711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62ec2ac1ef9dac47b0c5de919941925
+      internalID: 964207005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d92c52e4aceaf4490eee82e6eed03b
+      internalID: 1099838557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec76357dfb644b4c9c6d64dae1feb6e
+      internalID: 1251602217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5d9d24fa6148f4abf4c91f0ed5252a
+      internalID: 515576481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6eec4d37ab9048bbdb45ae03c4c13
+      internalID: -736341034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 256
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca28eeeb999e6ab4bb8efad1edda7c8c
+      internalID: -187582004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 256
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739aeddba0cb03447a738f5882b6a39a
+      internalID: -290685366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 225
+        width: 16
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f63170f0132224dbcf73635683d89b
+      internalID: -1842966775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 256
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd850e5b4bccd7c48862a18a2b1012f0
+      internalID: -1805708862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 256
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8945ac3162adc074b93494f334032936
+      internalID: 428532794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_15
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 256
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969c772b504707f47a4bb44c37c7c7cb
+      internalID: 65245752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 256
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f724dfc8857a4e498f673bea63d0da3
+      internalID: 125774268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 225
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767449eb557e95d4a803ca578274af88
+      internalID: 714179780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 256
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87a5b16189ba67429fe2c584e01b3c7
+      internalID: -1795574224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 256
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e6de7c5a150c449955540a985dfad1
+      internalID: -1572373638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 224
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1857b7c465f2ef4e9268f72d48b3527
+      internalID: -303276749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 224
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6640bf2ada2d0d546962c4e1d301fee0
+      internalID: -498693312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 224
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d56e65f57eae44092b5fd85479bab5
+      internalID: -923533749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 224
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bf8c666ed7376439fb10b820721366
+      internalID: -233622371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 224
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a0cf72625abd42a152b77d88c083d
+      internalID: 905043480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 224
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8133a7d8182f084ebfc15c4c017b144
+      internalID: 982543374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 224
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176f3376b93db7b4abf0e7b87697c571
+      internalID: -1443665501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 224
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51adee68e0aa2ba469221f9a82baceed
+      internalID: 804292841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109d8621c6528fb489408d1aa6152f34
+      internalID: -1518771941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_29
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 192
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc8b238a556c6d49b5c3c59b2841ff9
+      internalID: -873099226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419f051aabfb83049bce5275625aa861
+      internalID: 913768501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 192
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715b433a3c581a747835bc4ab7ff8062
+      internalID: -566315656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_32
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 192
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0243814b704abd24ca8db8539887dbc8
+      internalID: -589317790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 192
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b31283c0f3e194bbc9818796bad063
+      internalID: 510816762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_34
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 192
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d3d3c5d7b58cb429b0440e69b253bf
+      internalID: -1610535335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_35
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 192
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2024eb64ecb65664ca1f945e2e54752e
+      internalID: -867046998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_36
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 192
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace24f00d3898c74ba504bf4450dad60
+      internalID: -1642448340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_37
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 192
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca99c48e703db244986903b59e22bfff
+      internalID: -126208233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 160
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a137f55a4171242be2c93aeea53c6d
+      internalID: 1974240591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_39
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 160
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67964038f10e68f478ca99b4ecbf3862
+      internalID: 1234969772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_40
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 160
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bf92db1d29b8a4eac7076cd1d498d3
+      internalID: -1084379380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_41
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 160
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6865dd73a0f3843bf4a395ac67af58
+      internalID: 332377734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 160
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faff41675c8979b4abed4cbdbe21f01e
+      internalID: -460004561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_43
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 160
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adaaa461d8b2454daa37e9b62a7db21
+      internalID: 2057561888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_44
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 160
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4c772f44fd28541863d555e4446a7f
+      internalID: -728094729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_45
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 160
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993a51bc75500ff418456d895bfb52da
+      internalID: -1623802278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_46
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 160
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae4f964a66255a41b630793a3d62051
+      internalID: 2010910286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 160
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3c09ef0214c504fac4cac451a1d3cb
+      internalID: 852230906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604b81df4af44eb4c82b9fdc2e62e580
+      internalID: 622308980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fab1f126a1430040846d4bce41e3efd
+      internalID: 978547361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09287916401ed3a40a01e90d3589b565
+      internalID: 1612651463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e88b6b9a14a814998ae7f5c4c262ae
+      internalID: -1794673339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_52
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31b928eec857194aa4c618ab77f9fec
+      internalID: -1637868779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_53
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9c30b062bbed449961590d8a92cebd
+      internalID: -1177031839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_54
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf43a5a88e1f62499e4533835a09fc4
+      internalID: 968970152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1005fbd994a418489030c57523f50db
+      internalID: -707548176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_56
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138d8b87a7f75b640bbc05c8d23f8e64
+      internalID: 623278402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_57
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf65e43cb19ef34eb13c6f0d0edfefc
+      internalID: 1020975108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_58
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b18bf99fbc5de42860d9d1ab3ae69e
+      internalID: 734297170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_59
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425ad12dc28829446a8817f6ec823ef2
+      internalID: 1590554856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d657ce832ec524ba2411e7afdd8b8f
+      internalID: -1992133201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_61
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 96
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686d473669c3fb54983fa8d7851a701b
+      internalID: -1622691099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 96
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a076977689493ec4a904380f11eafedc
+      internalID: 800956985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_63
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 96
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984a02eafbea3554a8ceb48bdf48a39e
+      internalID: -861855275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_64
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 96
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222d6e027eea7b94cb95e1062dc3faa6
+      internalID: 563916691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_65
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 96
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd35bc27bce20374da6cad4b7bc4e184
+      internalID: 1909323234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_66
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 96
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3b816428325a24ab154de493b05172
+      internalID: 1794641591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_67
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 96
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cdc1cc3245e194bb8b70e16baf3312
+      internalID: -900340886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_68
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2fca3a3f60f4f44aba42620b876e29
+      internalID: 1810263807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_69
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48b373abbce7aa42810e2e00810762f
+      internalID: -2032679429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_70
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd65ddf7cd5972f47a53ff5ae43e7d31
+      internalID: -686884338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_71
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c92b24db6abf4ebc16d1a93caf175
+      internalID: 58787898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_72
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01dee41aba9d1e4abde608de46de673
+      internalID: -708973900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_73
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 64
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a5eb754560bfe4f9d2732b23802b6f
+      internalID: -1439183839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_74
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 64
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa66d3922c23664fb662bbf324c800b
+      internalID: 1201130128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_75
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d38041dd8ca3804baafd41d9f50d646
+      internalID: -807758487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_76
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 64
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b489a52afc153e48a700bb23272a5c1
+      internalID: 729563701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_77
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 64
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419c0c6b198f4684fa3acbfd73b861be
+      internalID: 223423889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_78
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 32
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309574bdc9c3a5841a80f3d089187050
+      internalID: -1803055650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_79
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 32
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93371d1303c20aa4aa8c8cc545d7b430
+      internalID: 1976419819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_80
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 32
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e01aaf3f4728784c83eb4ab3a232338
+      internalID: -1270434432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_81
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 32
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b75dd872b17de46a026bfa7507db09
+      internalID: -112289541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_82
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762e4156f7fc73c40bc09a9f20a54c1a
+      internalID: 102607990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_83
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 32
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a904863681fb48bf9be274ef43c43
+      internalID: -1998665334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_84
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 32
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267176872c9fb8b4d97d30256c7c288f
+      internalID: 1860813511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_85
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 32
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72547ef7aa9aaf740a369ee85c9bffdf
+      internalID: -482939428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_86
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 32
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a41ed35a136d046ab57c2481caf33a
+      internalID: -1880603796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_87
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 32
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4601271c8c14aad4891ff75d3ab77c3e
+      internalID: -754999673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_88
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9be1cb0ae3463549890ecd44e59e27b
+      internalID: 190426239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_89
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd473d3a18d6b4fb03c0b82493d169
+      internalID: 41721539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_90
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d34e79ae6e69b642b0c75bcbd6671c8
+      internalID: -1026262517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_91
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647ec0cbb098d9f49a499ed5ae4b9d60
+      internalID: 1145430818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_92
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6834367f9d4e6964ea09f9ac836f0677
+      internalID: -1741342983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_93
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e72a4f88f88e4eb7958aacae21e30
+      internalID: -1141733504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_94
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5801bf111617ed46b961c1a2128d26a
+      internalID: -592737935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_95
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2f6e5710af02441b09c66e5831da78
+      internalID: -135700890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_96
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655b8abe815b947489b767b1a747a2ab
+      internalID: -1029530012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rogue spritesheet calciumtrice_97
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8b89e41de9b834c9fa9dfdfeb86e74
+      internalID: -495546595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rogue spritesheet calciumtrice_9: -736341034
+      rogue spritesheet calciumtrice_52: -1637868779
+      rogue spritesheet calciumtrice_46: 2010910286
+      rogue spritesheet calciumtrice_78: -1803055650
+      rogue spritesheet calciumtrice_70: -686884338
+      rogue spritesheet calciumtrice_63: -861855275
+      rogue spritesheet calciumtrice_73: -1439183839
+      rogue spritesheet calciumtrice_18: -1795574224
+      rogue spritesheet calciumtrice_33: 510816762
+      rogue spritesheet calciumtrice_41: 332377734
+      rogue spritesheet calciumtrice_81: -112289541
+      rogue spritesheet calciumtrice_24: 905043480
+      rogue spritesheet calciumtrice_94: -592737935
+      rogue spritesheet calciumtrice_56: 623278402
+      rogue spritesheet calciumtrice_76: 729563701
+      rogue spritesheet calciumtrice_3: 877114827
+      rogue spritesheet calciumtrice_36: -1642448340
+      rogue spritesheet calciumtrice_60: -1992133201
+      rogue spritesheet calciumtrice_61: -1622691099
+      rogue spritesheet calciumtrice_93: -1141733504
+      rogue spritesheet calciumtrice_82: 102607990
+      rogue spritesheet calciumtrice_95: -135700890
+      rogue spritesheet calciumtrice_87: -754999673
+      rogue spritesheet calciumtrice_96: -1029530012
+      rogue spritesheet calciumtrice_44: -728094729
+      rogue spritesheet calciumtrice_11: -290685366
+      rogue spritesheet calciumtrice_49: 978547361
+      rogue spritesheet calciumtrice_83: -1998665334
+      rogue spritesheet calciumtrice_12: -1842966775
+      rogue spritesheet calciumtrice_14: 428532794
+      rogue spritesheet calciumtrice_38: 1974240591
+      rogue spritesheet calciumtrice_85: -482939428
+      rogue spritesheet calciumtrice_27: 804292841
+      rogue spritesheet calciumtrice_75: -807758487
+      rogue spritesheet calciumtrice_51: -1794673339
+      rogue spritesheet calciumtrice_17: 714179780
+      rogue spritesheet calciumtrice_88: 190426239
+      rogue spritesheet calciumtrice_4: -279910711
+      rogue spritesheet calciumtrice_8: 515576481
+      rogue spritesheet calciumtrice_54: 968970152
+      rogue spritesheet calciumtrice_34: -1610535335
+      rogue spritesheet calciumtrice_68: 1810263807
+      rogue spritesheet calciumtrice_65: 1909323234
+      rogue spritesheet calciumtrice_42: -460004561
+      rogue spritesheet calciumtrice_90: -1026262517
+      rogue spritesheet calciumtrice_84: 1860813511
+      rogue spritesheet calciumtrice_39: 1234969772
+      rogue spritesheet calciumtrice_66: 1794641591
+      rogue spritesheet calciumtrice_80: -1270434432
+      rogue spritesheet calciumtrice_55: -707548176
+      rogue spritesheet calciumtrice_31: -566315656
+      rogue spritesheet calciumtrice_64: 563916691
+      rogue spritesheet calciumtrice_45: -1623802278
+      rogue spritesheet calciumtrice_43: 2057561888
+      rogue spritesheet calciumtrice_89: 41721539
+      rogue spritesheet calciumtrice_6: 1099838557
+      rogue spritesheet calciumtrice_59: 1590554856
+      rogue spritesheet calciumtrice_21: -498693312
+      rogue spritesheet calciumtrice_47: 852230906
+      rogue spritesheet calciumtrice_2: 1782172776
+      rogue spritesheet calciumtrice_13: -1805708862
+      rogue spritesheet calciumtrice_25: 982543374
+      rogue spritesheet calciumtrice_79: 1976419819
+      rogue spritesheet calciumtrice_53: -1177031839
+      rogue spritesheet calciumtrice_86: -1880603796
+      rogue spritesheet calciumtrice_71: 58787898
+      rogue spritesheet calciumtrice_7: 1251602217
+      rogue spritesheet calciumtrice_58: 734297170
+      rogue spritesheet calciumtrice_37: -126208233
+      rogue spritesheet calciumtrice_10: -187582004
+      rogue spritesheet calciumtrice_30: 913768501
+      rogue spritesheet calciumtrice_15: 65245752
+      rogue spritesheet calciumtrice_32: -589317790
+      rogue spritesheet calciumtrice_0: -1382904472
+      rogue spritesheet calciumtrice_5: 964207005
+      rogue spritesheet calciumtrice_16: 125774268
+      rogue spritesheet calciumtrice_57: 1020975108
+      rogue spritesheet calciumtrice_92: -1741342983
+      rogue spritesheet calciumtrice_40: -1084379380
+      rogue spritesheet calciumtrice_19: -1572373638
+      rogue spritesheet calciumtrice_62: 800956985
+      rogue spritesheet calciumtrice_28: -1518771941
+      rogue spritesheet calciumtrice_29: -873099226
+      rogue spritesheet calciumtrice_22: -923533749
+      rogue spritesheet calciumtrice_77: 223423889
+      rogue spritesheet calciumtrice_91: 1145430818
+      rogue spritesheet calciumtrice_26: -1443665501
+      rogue spritesheet calciumtrice_67: -900340886
+      rogue spritesheet calciumtrice_23: -233622371
+      rogue spritesheet calciumtrice_48: 622308980
+      rogue spritesheet calciumtrice_50: 1612651463
+      rogue spritesheet calciumtrice_72: -708973900
+      rogue spritesheet calciumtrice_1: 324927628
+      rogue spritesheet calciumtrice_74: 1201130128
+      rogue spritesheet calciumtrice_35: -867046998
+      rogue spritesheet calciumtrice_97: -495546595
+      rogue spritesheet calciumtrice_20: -303276749
+      rogue spritesheet calciumtrice_69: -2032679429
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
