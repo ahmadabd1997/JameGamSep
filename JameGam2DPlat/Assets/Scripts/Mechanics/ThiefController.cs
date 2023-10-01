@@ -27,6 +27,7 @@ public class ThiefController :  MonoBehaviour {
         var collision = other.gameObject.GetComponent<Wall>();
         if(collision != null){
             lookingRight = -1;
+            transform.localScale = new Vector2(-1,1);
         }
     }
 
@@ -38,6 +39,7 @@ public class ThiefController :  MonoBehaviour {
                 collision.ThiefGot(this);
                 prize = collision;
                 lookingRight = -1;
+                transform.localScale = new Vector2(-1,1);
             }
         }
 
