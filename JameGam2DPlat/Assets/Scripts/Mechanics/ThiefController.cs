@@ -4,7 +4,7 @@ using UnityEngine;
 using MoreMountains.Feedbacks;
 
 public class ThiefController :  MonoBehaviour {
-    [SerializeField] private float speed;
+    [SerializeField] public float speed;
     int lookingRight = 1;
     [SerializeField] private MMF_Player gotHitFeedback;
     [SerializeField] private MMF_Player happyFeedback;
@@ -23,7 +23,7 @@ public class ThiefController :  MonoBehaviour {
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
-        Debug.LogWarning(name + "I collided.");
+        // Debug.LogWarning(name + "I collided.");
         var collision = other.gameObject.GetComponent<Wall>();
         if(collision != null){
             lookingRight = -1;
@@ -31,7 +31,7 @@ public class ThiefController :  MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.LogWarning(name + " I entered a trigger.");
+        // Debug.LogWarning(name + " I entered a trigger.");
         var collision = other.gameObject.GetComponent<Prize>();
         if(collision != null){
             if(collision.ready){
@@ -44,9 +44,12 @@ public class ThiefController :  MonoBehaviour {
         var collision2 = other.gameObject.GetComponent<OutOfRoom>();
         if(collision2 != null){
             if(prize != null){
-                moving = false;
-                happyFeedback.PlayFeedbacks();
-                //todo -- GameManager -1 health;
+                if(moving){
+                    moving = false;
+                    happyFeedback.PlayFeedbacks();
+                    prize.ThiefRanAway();
+                    FindObjectOfType<GameManager>().ThiefRanOut();
+                }
             }
             else{
                 gotHitFeedback.PlayFeedbacks();
@@ -55,12 +58,15 @@ public class ThiefController :  MonoBehaviour {
     }
 
     public void GetHit(){
-        Debug.LogWarning(name + " Got Hit!!" );
-        if(prize != null){
-            prize.ThiefDied();
+        if(moving){
+            Debug.LogWarning(name + " Got Hit!!" );
+            if(prize != null){
+                prize.ThiefDied();
+            }
+            FindObjectOfType<GameManager>().ThiefOut();
+            moving = false;
+            gotHitFeedback.PlayFeedbacks();
         }
-        gotHitFeedback.PlayFeedbacks();
-        moving = false;
         
     }
 }

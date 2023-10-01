@@ -6,6 +6,7 @@ using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
 using MoreMountains.Feedbacks;
+using UnityEngine.SceneManagement;
 
 namespace Platformer.Mechanics
 {
@@ -73,6 +74,9 @@ namespace Platformer.Mechanics
                         throwPlaceObj.ThrowToy();
                         throwPlaceTryFeedback.PlayFeedbacks();
                     }
+                }
+                if(Input.GetButtonDown("Cancel")){
+                    SceneManager.LoadScene(0);
                 }
             }
             else
