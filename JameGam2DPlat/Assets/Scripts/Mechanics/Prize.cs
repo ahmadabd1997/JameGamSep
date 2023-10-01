@@ -9,7 +9,12 @@ public class Prize : MonoBehaviour
     [SerializeField] private GameObject prizesParent;
     [SerializeField] private MMF_Player dropFeedback;
     public bool ready = true;
+    private Vector3 startPoint;
     private float cooldownTimer;
+
+    private void Awake() {
+        startPoint = transform.position;
+    }
 
     public void ThiefGot(ThiefController other){
         thief = other;
@@ -23,6 +28,15 @@ public class Prize : MonoBehaviour
         thief = null;
         transform.parent = prizesParent.transform;
         dropFeedback.PlayFeedbacks();
+    }
+
+    public void ThiefRanAway(){
+        Debug.LogWarning("the thief Ran!!");
+        cooldownTimer = 1;
+        thief = null;
+        transform.parent = prizesParent.transform;
+        dropFeedback.PlayFeedbacks();
+        transform.position = startPoint;
     }
 
      private void FixedUpdate(){
