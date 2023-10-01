@@ -20,10 +20,10 @@ public class TheifSpawner : MonoBehaviour
     private IEnumerator Spawn(float waitTime)
     {
         while (true)
-        {
+        {   
+            yield return new WaitForSeconds(waitTime);
             var thief = Instantiate(theifPrefab, transform.position, transform.rotation);
             thief.speed = Random.Range(minSpeed, maxSpeed);
-            yield return new WaitForSeconds(waitTime);
         }
     }
 }
