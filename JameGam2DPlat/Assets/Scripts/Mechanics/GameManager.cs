@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     }
 
     private void Lose(){
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 
     public void NextLevel(){
